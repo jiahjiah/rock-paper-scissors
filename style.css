@@ -1,0 +1,50 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 70, 83);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    font-size: 40px;
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-weight: 700;
+    margin: 30px;
+    background-color: tan;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    font-size: 40px;
+    background-color: slategray;
+    width: 160px;
+    height: 160px;
+    border: none;
+    border-radius: 30px;
+}
+

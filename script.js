@@ -31,7 +31,7 @@ function game() {
     let playerScore = 0;
     let computerScore = 0;
 
-    while (playerScore < 3 && computerScore < 3) {
+    while (playerScore < 5 && computerScore < 5) {
         let playerSelection = prompt("Please enter your selection: rock, paper, or scissors?");
         console.log(`You chose chose: ${playerSelection}.`)
 
