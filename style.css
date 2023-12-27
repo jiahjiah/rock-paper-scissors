@@ -48,3 +48,6 @@ button {
     border-radius: 30px;
 }
 
+.endContainer {
+    opacity: 0;
+}
